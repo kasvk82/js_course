@@ -8,6 +8,8 @@ var num, str;
 num = 15; 
 console.log("Переменная: " + num);
 
+arr = new Array(1, 2 ,3);
+
 
 var num1 = 15;
 var num2 = 20;
@@ -53,8 +55,18 @@ switch(num) {
         break;
 }
 
+function test_func() {
+    
+    var num1 = 20;
 
+    console.log("Java script говорит привет!");
+    console.error("Java script говорит привет!");
+    console.warn("Java script говорит привет!");
+    console.log(num1);
+}
 
+test_func();
 
+console.log(num1);
 
-
+console.log(arr);
