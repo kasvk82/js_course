@@ -70,3 +70,7 @@ test_func();
 console.log(num1);
 
 console.log(arr);
+
+function onClickButton() {
+    alert("Вы нажали на меня!");
+}
