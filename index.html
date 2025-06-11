@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body onload="onClickButton()">
+<!-- <body onload="onClickButton()"> -->
+<body>
     <noscript>включите JS!</noscript>
 
     <!-- <button onclick="alert('вы нажали на меня')">Нажми меня</button> -->
 
-    <button onclick="onClickButton()">Нажми меня</button>
+    <button name="mainButton" onclick="onClickButton(this)">Нажми меня</button>
+    <input type="text" oninput="onInput(this)">
 
-    <p ondblclick="onClickButton()">Двойной клик по мне</p>
+    <!-- <p ondblclick="onClickButton()">Двойной клик по мне</p> -->
 
     <!-- <p onmouseover="onClickButton()">Наведи на меня</p> -->
 
-    <p onmouseout="onClickButton()">Убери с меня мышку</p>
+    <!-- <p onmouseout="onClickButton()">Убери с меня мышку</p> -->
 
-    <input type="text" oninput="onClickButton()">
+    <!-- <input type="text" oninput="onClickButton()"> -->
 
     <!-- <p ondrag="onClickButton()">Перенеси меня</p> -->
 
